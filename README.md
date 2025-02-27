@@ -11,7 +11,7 @@
 import  pyodbc 
 
 #Creamos una variable llamada “conexion” para conectar el Python con el driver de Microsoft Access a través del argumento DRIVER, usamos el argumento DBQ para indicar la ubicación del archivo de la base de datos de Access. Empleamos
-las siguientes líneas de código: 
+#las siguientes líneas de código: 
 
 conexion=pyodbc.connect(r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)}; DBQ=C:\Users\herna\Documents\TUTORIAL\tutorial\BaseDeDatos.accdb')
 
